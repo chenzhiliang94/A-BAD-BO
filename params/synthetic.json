@@ -12,9 +12,9 @@
 
     "vanilla_bo_trial":5,
     "vanilla_bo_iteration":200,
-    "vanilla_bo_bounds":[5],
+    "vanilla_bo_bounds":[3],
 
-    "turbo_bo_bounds":[5],
+    "turbo_bo_bounds":[3],
     "turbo_batch_size":4,
 
     "grad_itr":500
