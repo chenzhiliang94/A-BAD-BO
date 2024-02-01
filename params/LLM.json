@@ -5,7 +5,7 @@
     "abollo_lower_bound":0.001,
     "abollo_upper_bound":1.0,
     "abollo_bo_iteration":[10],
-    "abollo_sample_size":[5,1,2,10],
+    "abollo_sample_size":[5],
     "down_sample_size":0.05,
     "epochs":3,
 

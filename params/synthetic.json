@@ -5,16 +5,16 @@
     "mnist_size":"small",
     "abollo_trial":3,
     "abollo_bound_size":10,
-    "abollo_bo_iteration":[5,10,15,20,25,30],
-    "abollo_sample_size":[2,4,6,8,10,12],
+    "abollo_bo_iteration":[20],
+    "abollo_sample_size":[10],
     "abollo_search_method":"multi_search",
     "starting_seed":800,
 
     "vanilla_bo_trial":5,
     "vanilla_bo_iteration":200,
-    "vanilla_bo_bounds":[],
+    "vanilla_bo_bounds":[5],
 
-    "turbo_bo_bounds":[],
+    "turbo_bo_bounds":[5],
     "turbo_batch_size":4,
 
     "grad_itr":500

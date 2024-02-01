@@ -34,7 +34,7 @@ import json
 import warnings
 warnings.filterwarnings("ignore")
 
-f = open('params/mnist_large_2.json')
+f = open('params/mnist_large.json')
 param = json.load(f)
 
 ground_truth_param_mnist = {"Blackbox7": np.array([0.8,0.8]), 6 : np.array([0.7, 0.9]), 2: np.array([0.5, 0.7]), 12: np.array([0.5, 0.5]), "Blackbox3":np.array([1.2, 0.8]), 4:np.array([-0.3, 0.5]),
