@@ -1,0 +1,22 @@
+{
+    "data_generation_seed":3,
+    "perturbation_noise":-2.5,
+    "noise_std":0.5,
+    "mnist_size":"small",
+    "abollo_trial":5,
+    "abollo_bound_size":5,
+    "abollo_bo_iteration":20,
+    "abollo_bo_iteration":[5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100],
+    "abollo_sample_size":[5,10,15,20,25,30,35,40,45,50],
+    "abollo_search_method":"multi_search",
+    "starting_seed":800,
+
+    "vanilla_bo_trial":5,
+    "vanilla_bo_iteration":200,
+    "vanilla_bo_bounds":[],
+
+    "turbo_bo_bounds":[],
+    "turbo_batch_size":4,
+
+    "grad_itr":600
+}

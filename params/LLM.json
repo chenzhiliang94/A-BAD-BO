@@ -1,0 +1,18 @@
+{
+    "contamination_rate":0.9,
+
+    "abollo_trial":1,
+    "abollo_lower_bound":0.001,
+    "abollo_upper_bound":1.0,
+    "abollo_bo_iteration":[10],
+    "abollo_sample_size":[5,1,2,10],
+    "down_sample_size":0.05,
+    "epochs":3,
+
+    "vanilla_bo_trial":3,
+    "vanilla_bo_iteration":200,
+    "vanilla_bo_bounds":[1],
+
+    "turbo_bo_bounds":[1],
+    "turbo_batch_size":2
+}
