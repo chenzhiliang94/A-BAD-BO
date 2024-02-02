@@ -14,5 +14,5 @@
     "vanilla_bo_bounds":[1],
 
     "turbo_bo_bounds":[1],
-    "turbo_batch_size":2
+    "turbo_batch_size":1
 }

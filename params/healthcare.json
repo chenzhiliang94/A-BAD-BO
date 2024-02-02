@@ -16,7 +16,7 @@
     "vanilla_bo_bounds":[2],
 
     "turbo_bo_bounds":[2],
-    "turbo_batch_size":4,
+    "turbo_batch_size":1,
 
     "grad_itr":600
 }
