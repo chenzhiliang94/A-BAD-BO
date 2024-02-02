@@ -111,7 +111,6 @@ def BO_graph(system : DirectedFunctionalGraph, printout=True, iteration=50, lowe
             fit_gpytorch_mll(mll)
         except:
             fitting_error_count+=1
-            print("MODEL FITTING, THROW")
         UCB = UpperConfidenceBound(gp, beta=0.1)
 
         bounds = torch.stack([torch.ones(parameter_trials.shape[-1]) * lower_bound, upper_bound * torch.ones(parameter_trials.shape[-1])])
@@ -252,7 +251,6 @@ def BO_graph_local_loss(system : DirectedFunctionalGraph, bounds: torch.tensor, 
             fit_gpytorch_mll(mll)
         except:
             fitting_error_count+=1
-            print("MODEL FITTING, THROW")
         UCB = UpperConfidenceBound(gp, beta=0.1)
 
         candidate, acq_value = optimize_acqf(
@@ -317,7 +315,6 @@ def BO_graph_local_loss_with_explicit_noise(system : DirectedFunctionalGraph, bo
             fit_gpytorch_mll(mll)
         except:
             fitting_error_count+=1
-            print("MODEL FITTING, THROW")
         UCB = UpperConfidenceBound(gp, beta=0.1)
 
         candidate, acq_value = optimize_acqf(
