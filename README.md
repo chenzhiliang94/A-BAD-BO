@@ -1,7 +1,7 @@
 ## Requirements
 `pip3 install -r requirements.txt`
 
-## Running experiments for synthetic, mnist and healthcare system (each command will run A-BAD-BO with other baselines). No data download needed.
+## Running experiments for synthetic, mnist and healthcare system (each command will run A-BAD-BO with other baselines). No data download needed. Results will be stored in result/ directory.
 - `python3 run_bo_new_healthcare.py`
 - `python3 run_bo_new_mnist.py`
 - `python3 run_bo_new_synthetic.py`
