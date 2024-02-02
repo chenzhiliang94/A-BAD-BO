@@ -7,10 +7,11 @@
 - `python3 get_llm_data.py` to generate the data needed for our LLM system used in our paper.
 
 ## Running experiments for LLM prompt engineering system (make sure data for LLM system is installed in previous step)
+First, make sure you have a working openai API key and set it on the command line.
 - `python3 run_BO_LLM_vanilla.py` (optimize LLM pipeline with vanilla BO with GP-LCB)
 - `python3 run_BO_LLM_turbo.py` (optimize LLM pipeline with TuRBO)
 - `python3 run_LLM_pipeline.py` (optimize LLM pipeline with A-BAD-BO, our algorithm)
-- 
+  
 ## Running experiments for synthetic, mnist and healthcare system (each command will run A-BAD-BO with other baselines). No data download needed.
 - `python3 run_bo_new_healthcare.py`
 - `python3 run_bo_new_mnist.py`
