@@ -234,7 +234,6 @@ def BO_graph_local_loss(system : DirectedFunctionalGraph, bounds: torch.tensor, 
         UCB = None
         gp = None
         print("target loss:", next_param[0])
-        print("reached loss:", system.get_local_losses())
         input_param = torch.cat((input_param, system.get_local_losses()), 0)
         target.append([current_loss])
         Y = torch.DoubleTensor(target)
@@ -300,7 +299,6 @@ def BO_graph_local_loss_with_explicit_noise(system : DirectedFunctionalGraph, bo
         UCB = None
         gp = None
         print("target loss:", next_param[0])
-        print("reached loss:", system.get_local_losses())
         input_param = torch.cat((input_param, system.get_local_losses()), 0)
         target.append([current_loss])
         Y = torch.DoubleTensor(target)
