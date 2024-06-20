@@ -1,3 +1,16 @@
+This repository contains experiments for A-BAD-BO algorithm for optimizing systems in this paper: [Towards AutoAI: Optimizing a Machine Learning System with Black-box and Differentiable Components](https://openreview.net/forum?id=JVhUR8q27o&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2024%2FConference%2FAuthors%23your-submissions))
+
+To cite the paper, please use the following:
+```
+@inproceedings{
+chen2024towards,
+title={Towards Auto{AI}: Optimizing a Machine Learning System with Black-box and Differentiable Components},
+author={Zhiliang Chen and Chuan-Sheng Foo and Bryan Kian Hsiang Low},
+booktitle={Forty-first International Conference on Machine Learning},
+year={2024},
+url={https://openreview.net/forum?id=JVhUR8q27o}
+}
+```
 ## Requirements
 `pip3 install -r requirements.txt`
 
